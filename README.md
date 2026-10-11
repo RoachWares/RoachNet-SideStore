@@ -16,6 +16,6 @@ What it carries:
 Website links should point users to:
 
 - shared source URL: `https://raw.githubusercontent.com/RoachWares/RoachNet-SideStore/main/apps.json`
-- direct IPA: `https://github.com/RoachWares/RoachNet-iOS/releases/latest/download/RoachNetiOS-v0.1.5-unsigned.ipa`
+- direct IPA: `https://github.com/RoachWares/RoachNet-iOS/releases/latest/download/RoachNetiOS-v0.2.0-unsigned.ipa`
 
 The source exists so the iOS install lane feels like the rest of RoachNet: one clear path, no mystery files, no guessing which IPA is current. Add the same source URL in SideStore or AltStore; if the source path is not available, download the IPA and import it manually.
