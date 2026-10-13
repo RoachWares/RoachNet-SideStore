@@ -24,6 +24,16 @@
       ],
       "versions": [
         {
+          "version": "0.3.1",
+          "buildVersion": "8",
+          "date": "2026-10-13T05:16:25Z",
+          "localizedDescription": "A cleaner build: the IPA no longer carries the build Mac's folder paths (the debug map is stripped, and the build refuses to ship them). The app itself is the same as 0.3.0.",
+          "downloadURL": "https://github.com/RoachWares/RoachNet-iOS/releases/download/v0.3.1/RoachNetiOS-v0.3.1-unsigned.ipa",
+          "size": 4028890,
+          "sha256": "865a44cae9d5cb1a00471592552e5e593ff9fefa160eca19f681f18870dd15fc",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.3.0",
           "buildVersion": "7",
           "date": "2026-10-12T08:54:48Z",
@@ -68,6 +78,16 @@
     }
   ],
   "news": [
+    {
+      "title": "RoachNet iOS 0.3.1",
+      "identifier": "roachnet-ios-0.3.1",
+      "caption": "A cleaner build with no build-machine paths in the IPA.",
+      "date": "2026-10-13T05:16:25Z",
+      "tintColor": "#9138D8",
+      "url": "https://github.com/RoachWares/RoachNet-iOS/releases/tag/v0.3.1",
+      "appID": "com.roachwares.RoachNetCompanion",
+      "notify": false
+    },
     {
       "title": "RoachNet iOS 0.3.0",
       "identifier": "roachnet-ios-0.3.0",
