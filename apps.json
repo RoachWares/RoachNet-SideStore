@@ -1,0 +1,64 @@
+{
+  "name": "RoachNet",
+  "identifier": "org.roachnet.sidestore",
+  "subtitle": "RoachNetiOS installs for SideStore and AltStore",
+  "description": "Shared RoachNetiOS AltSource for SideStore and AltStore, with RoachClaw, vault reads, runtime checks, install handoff, and the RoachAtlas GPS bridge close on iPhone and iPad.",
+  "iconURL": "https://raw.githubusercontent.com/RoachWares/RoachNet-SideStore/main/assets/roachnet-ios-icon.png",
+  "website": "https://roachnet.org/ios/",
+  "apps": [
+    {
+      "name": "RoachNetiOS",
+      "bundleIdentifier": "com.roachwares.RoachNetCompanion",
+      "developerName": "RoachWares LLC",
+      "subtitle": "RoachClaw, your vault and your Mac, in your pocket",
+      "localizedDescription": "RoachNet iOS is the companion for RoachNet on the Mac. It pairs over RoachTail with a key for each device, then brings RoachClaw chat, your vault, app installs and a live look at the Mac to your iPhone or iPad. The Home tab shows what the Mac is doing at a glance. With RoachNet 1.1 on the Mac, it also handles RoachClaw Org approvals and wears the Mac's theme. When the Mac is out of reach, recent chats, files and status stay on the phone. No RoachNet account and no relay server.",
+      "iconURL": "https://raw.githubusercontent.com/RoachWares/RoachNet-SideStore/main/assets/roachnet-ios-icon.png",
+      "tintColor": "#54F29A",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/RoachWares/RoachNet-SideStore/main/assets/screens-v020/roachnet-ios-020-home.jpg",
+        "https://raw.githubusercontent.com/RoachWares/RoachNet-SideStore/main/assets/screens-v020/roachnet-ios-020-roachclaw.jpg",
+        "https://raw.githubusercontent.com/RoachWares/RoachNet-SideStore/main/assets/screens-v020/roachnet-ios-020-org.jpg",
+        "https://raw.githubusercontent.com/RoachWares/RoachNet-SideStore/main/assets/screens-v020/roachnet-ios-020-apps.jpg",
+        "https://raw.githubusercontent.com/RoachWares/RoachNet-SideStore/main/assets/screens-v020/roachnet-ios-020-vault.jpg",
+        "https://raw.githubusercontent.com/RoachWares/RoachNet-SideStore/main/assets/screens-v020/roachnet-ios-020-runtime.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.3.1",
+          "buildVersion": "8",
+          "date": "2026-10-13T05:16:25Z",
+          "localizedDescription": "A cleaner build: the IPA no longer carries the build Mac's folder paths (the debug map is stripped, and the build refuses to ship them). The app itself is the same as 0.3.0.",
+          "downloadURL": "https://github.com/RoachWares/RoachNet-iOS/releases/download/v0.3.1/RoachNetiOS-v0.3.1-unsigned.ipa",
+          "size": 4028890,
+          "sha256": "865a44cae9d5cb1a00471592552e5e593ff9fefa160eca19f681f18870dd15fc",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "RoachNetiOS uses the camera to scan RoachTail pairing QR codes from your Mac.",
+          "NSLocalNetworkUsageDescription": "RoachNet iOS connects to your Mac companion runtime so you can keep using chats, vault data, and installs from your phone.",
+          "NSBluetoothAlwaysUsageDescription": "RoachNetiOS uses Bluetooth only when you start the RoachAtlas GPS bridge, so your Mac can read a local foreground GPS packet.",
+          "NSLocationWhenInUseUsageDescription": "RoachNetiOS uses your location only while the foreground RoachAtlas GPS bridge is running for your paired Mac.",
+          "NSMicrophoneUsageDescription": "RoachNetiOS uses the microphone for local voice prompts in RoachClaw.",
+          "NSSpeechRecognitionUsageDescription": "RoachNetiOS turns speech into prompts so RoachClaw can stay hands-free when you need it.",
+          "NSBluetoothPeripheralUsageDescription": "RoachNetiOS advertises a local RoachAtlas GPS packet over Bluetooth while the foreground bridge is running.",
+          "NSFaceIDUsageDescription": "RoachNetiOS asks for Face ID before it approves Org decisions, changes its token or forgets your Mac."
+        }
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "RoachNet iOS 0.3.1",
+      "identifier": "roachnet-ios-0.3.1",
+      "caption": "A cleaner build with no build-machine paths in the IPA.",
+      "date": "2026-10-13T05:16:25Z",
+      "tintColor": "#9138D8",
+      "url": "https://roachnet.org/docs/releases/ios-0.3.1/",
+      "appID": "com.roachwares.RoachNetCompanion",
+      "notify": false
+    }
+  ]
+}
